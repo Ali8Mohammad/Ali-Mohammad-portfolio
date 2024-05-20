@@ -22,6 +22,7 @@ html {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    max-height: 100vh;
     }
     .header::after {
         content: "";
@@ -33,7 +34,6 @@ html {
         background: #000;
         opacity: 0.65;
         z-index: 0;
-        height: 100vh;
     }
 
 .nav-bar {
