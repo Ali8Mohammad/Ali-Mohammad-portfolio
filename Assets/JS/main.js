@@ -17,7 +17,7 @@ window.addEventListener('scroll', () => {
             count = 0;
             const data = parseInt(progress[i].dataset.count);
             progress[i].style.transition = 'width ' + (data * 30) + 'ms';
-            progress[i].style.width = (data + 10) + '%';
+            progress[i].style.width = (data + 15) + '%';
 
             function updateCount() {
                 if (count < data) {

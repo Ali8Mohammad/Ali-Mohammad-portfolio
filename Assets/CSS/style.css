@@ -759,4 +759,10 @@ flex-wrap: wrap;
     .social-links {
         width: 100%;
     }
+    .progress h3 {
+        font-size: 10px;
+    }
+    .percetage {
+        font-size: 10px;
+    }
 }
