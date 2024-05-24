@@ -12,6 +12,9 @@ body {
 html {
     scroll-behavior: smooth;
 }
+button {
+    cursor: pointer;
+}
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -398,6 +401,7 @@ flex-wrap: wrap;
     color: #222222;
     font-weight: 700;
     position: relative;
+    cursor: pointer;
 }
 .tabs li::after {
     content: '';
